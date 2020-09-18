@@ -2,6 +2,9 @@
 
 Learn how to cook for your favorite dishes.
 
+![demo](https://github.com/Vince-vegas/Foodi/blob/master/public/foodi.jpg)
+
+
 Built with:
 
 - [React](https://reactjs.org/)
