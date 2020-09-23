@@ -301,9 +301,6 @@ body {
 
   // MODAL
   .modal-card {
-    min-width: 460px;
-    max-width: 460px;
-
     .recipe-img {
       min-height: 0;
     }
@@ -312,6 +309,14 @@ body {
 
 // mobile device
 @include media-query-max(670px) {
+  .modal-card {
+    min-width: 330px;
+    max-width: 330px;
+  }
+  .modal-menu {
+    flex-direction: column;
+  }
+
   .search-box {
     .search-form {
       .search-input {
